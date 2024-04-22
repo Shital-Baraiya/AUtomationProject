@@ -25,6 +25,8 @@ public class TestBase {
 	public static ExtentTest test;
 //	 public String browserName = "chrome";
 
+	
+	//I modify this code
 	@BeforeSuite
 	public void setUp() {
 
