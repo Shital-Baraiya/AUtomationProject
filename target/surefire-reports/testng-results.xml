@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-22T22:21:29 IST" name="Automation Test" finished-at="2024-04-22T22:21:35 IST" duration-ms="6777">
+  <suite started-at="2024-05-22T17:46:31 IST" name="Automation Test" finished-at="2024-05-22T17:46:40 IST" duration-ms="8169">
     <groups>
     </groups>
-    <test started-at="2024-04-22T22:21:29 IST" name="Test" finished-at="2024-04-22T22:21:35 IST" duration-ms="6777">
+    <test started-at="2024-05-22T17:46:31 IST" name="Test" finished-at="2024-05-22T17:46:40 IST" duration-ms="8169">
       <class name="test.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:24 IST" name="setUp" finished-at="2024-04-22T22:21:29 IST" duration-ms="4492" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:28 IST" name="setUp" finished-at="2024-05-22T17:46:31 IST" duration-ms="3630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupClass()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:29 IST" name="setupClass" finished-at="2024-04-22T22:21:29 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="setupClass()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:31 IST" name="setupClass" finished-at="2024-05-22T17:46:32 IST" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method signature="loginUser()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:29 IST" name="loginUser" finished-at="2024-04-22T22:21:34 IST" duration-ms="5415" status="PASS">
+        <test-method signature="loginUser()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:32 IST" name="loginUser" finished-at="2024-05-22T17:46:38 IST" duration-ms="6173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginUser -->
-        <test-method signature="addItemToCart()[pri:1, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:34 IST" name="addItemToCart" finished-at="2024-04-22T22:21:35 IST" depends-on-methods="test.LoginTest.loginUser" duration-ms="51" status="PASS">
+        <test-method signature="addItemToCart()[pri:1, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:38 IST" name="addItemToCart" finished-at="2024-05-22T17:46:38 IST" depends-on-methods="test.LoginTest.loginUser" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method signature="verifyCartDetailsTest()[pri:2, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:35 IST" name="verifyCartDetailsTest" finished-at="2024-04-22T22:21:35 IST" depends-on-methods="test.LoginTest.addItemToCart" duration-ms="76" status="PASS">
+        <test-method signature="verifyCartDetailsTest()[pri:2, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:38 IST" name="verifyCartDetailsTest" finished-at="2024-05-22T17:46:39 IST" depends-on-methods="test.LoginTest.addItemToCart" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartDetailsTest -->
-        <test-method signature="enterCheckOutInfoTest()[pri:3, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:35 IST" name="enterCheckOutInfoTest" finished-at="2024-04-22T22:21:35 IST" depends-on-methods="test.LoginTest.verifyCartDetailsTest" duration-ms="479" status="PASS">
+        <test-method signature="enterCheckOutInfoTest()[pri:3, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:39 IST" name="enterCheckOutInfoTest" finished-at="2024-05-22T17:46:39 IST" depends-on-methods="test.LoginTest.verifyCartDetailsTest" duration-ms="574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterCheckOutInfoTest -->
-        <test-method signature="verifyCheckOutOverviewTest()[pri:4, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:35 IST" name="verifyCheckOutOverviewTest" finished-at="2024-04-22T22:21:35 IST" depends-on-methods="test.LoginTest.enterCheckOutInfoTest" duration-ms="111" status="PASS">
+        <test-method signature="verifyCheckOutOverviewTest()[pri:4, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:39 IST" name="verifyCheckOutOverviewTest" finished-at="2024-05-22T17:46:39 IST" depends-on-methods="test.LoginTest.enterCheckOutInfoTest" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckOutOverviewTest -->
-        <test-method signature="checkOutConfirmationTest()[pri:5, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:35 IST" name="checkOutConfirmationTest" finished-at="2024-04-22T22:21:35 IST" depends-on-methods="test.LoginTest.verifyCheckOutOverviewTest" duration-ms="49" status="PASS">
+        <test-method signature="checkOutConfirmationTest()[pri:5, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:39 IST" name="checkOutConfirmationTest" finished-at="2024-05-22T17:46:40 IST" depends-on-methods="test.LoginTest.verifyCheckOutOverviewTest" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOutConfirmationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-04-22T22:21:36 IST" name="tearDown" finished-at="2024-04-22T22:21:36 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@2e32ccc5]" started-at="2024-05-22T17:46:40 IST" name="tearDown" finished-at="2024-05-22T17:46:40 IST" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/5</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 13 21:57:57 IST 2024</td>
+<td>Started on:</td><td>Thu Apr 25 14:19:57 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>5 seconds (5542 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5457 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,7 +77,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='test.LoginTest.loginUser()'><b>loginUser</b><br>Test class: test.LoginTest</td>
 <td><div><pre>java.lang.NullPointerException
-	at test.LoginTest.loginUser(LoginTest.java:51)
+	at test.LoginTest.loginUser(LoginTest.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,9 +106,9 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1620187937", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1620187937'><pre>java.lang.NullPointerException
-	at test.LoginTest.loginUser(LoginTest.java:51)
+</pre></div><a href='#' onClick='toggleBox("stack-trace518692141", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace518692141'><pre>java.lang.NullPointerException
+	at test.LoginTest.loginUser(LoginTest.java:45)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -149,6 +149,52 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='test.LoginTest.addItemToCart()'><b>addItemToCart</b><br>Test class: test.LoginTest</td>
+<td><div><pre>java.lang.Throwable: Method LoginTest.addItemToCart()[pri:1, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace442205321", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace442205321'><pre>java.lang.Throwable: Method LoginTest.addItemToCart()[pri:1, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>test.LoginTest@93081b6</td></tr>
+<tr>
 <td title='test.LoginTest.enterCheckOutInfoTest()'><b>enterCheckOutInfoTest</b><br>Test class: test.LoginTest</td>
 <td><div><pre>java.lang.Throwable: Method LoginTest.enterCheckOutInfoTest()[pri:3, instance:test.LoginTest@93081b6] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
@@ -170,8 +216,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace670153696", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace670153696'><pre>java.lang.Throwable: Method LoginTest.enterCheckOutInfoTest()[pri:3, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+</pre></div><a href='#' onClick='toggleBox("stack-trace884604029", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace884604029'><pre>java.lang.Throwable: Method LoginTest.enterCheckOutInfoTest()[pri:3, instance:test.LoginTest@93081b6] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -216,54 +262,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2082545616", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2082545616'><pre>java.lang.Throwable: Method LoginTest.verifyCheckOutOverviewTest()[pri:4, instance:test.LoginTest@93081b6] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>test.LoginTest@93081b6</td></tr>
-<tr>
-<td title='test.LoginTest.checkOutConfirmationTest()'><b>checkOutConfirmationTest</b><br>Test class: test.LoginTest</td>
-<td><div><pre>java.lang.Throwable: Method LoginTest.checkOutConfirmationTest()[pri:5, instance:test.LoginTest@93081b6] depends on not successfully finished methods
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace763677574", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace763677574'><pre>java.lang.Throwable: Method LoginTest.checkOutConfirmationTest()[pri:5, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+</pre></div><a href='#' onClick='toggleBox("stack-trace215614514", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace215614514'><pre>java.lang.Throwable: Method LoginTest.verifyCheckOutOverviewTest()[pri:4, instance:test.LoginTest@93081b6] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -308,8 +308,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1921012072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1921012072'><pre>java.lang.Throwable: Method LoginTest.verifyCartDetailsTest()[pri:2, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+</pre></div><a href='#' onClick='toggleBox("stack-trace1260127127", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1260127127'><pre>java.lang.Throwable: Method LoginTest.verifyCartDetailsTest()[pri:2, instance:test.LoginTest@93081b6] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -333,8 +333,8 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>test.LoginTest@93081b6</td></tr>
 <tr>
-<td title='test.LoginTest.addItemToCart()'><b>addItemToCart</b><br>Test class: test.LoginTest</td>
-<td><div><pre>java.lang.Throwable: Method LoginTest.addItemToCart()[pri:1, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+<td title='test.LoginTest.checkOutConfirmationTest()'><b>checkOutConfirmationTest</b><br>Test class: test.LoginTest</td>
+<td><div><pre>java.lang.Throwable: Method LoginTest.checkOutConfirmationTest()[pri:5, instance:test.LoginTest@93081b6] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -354,8 +354,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1871678080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1871678080'><pre>java.lang.Throwable: Method LoginTest.addItemToCart()[pri:1, instance:test.LoginTest@93081b6] depends on not successfully finished methods
+</pre></div><a href='#' onClick='toggleBox("stack-trace117460541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace117460541'><pre>java.lang.Throwable: Method LoginTest.checkOutConfirmationTest()[pri:5, instance:test.LoginTest@93081b6] depends on not successfully finished methods
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
