@@ -25,6 +25,7 @@ public class LoginTest extends TestBase {
 	CheckoutOverview overview;
 	ConfirmationPage confirmation;
 
+	//I made this change
 	@BeforeClass
 	public void setupClass() {
 		login = new LoginPage(driver);
